@@ -1,0 +1,710 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-image: url(images/lapki.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* NAGŁÓWEK */
+header {
+	height: 25vh;
+	width: 100%;
+	background-color: MediumSpringGreen;
+}
+header h1 {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  line-height: 25vh;
+
+}
+
+/* NAVBAR */
+#navbar {
+	clear: both;
+	background-color: MediumAquaMarine;
+	float: right;
+	width: 100%;
+	line-height: 300%;
+	overflow: hidden;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: black;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+#home{
+	color: white;
+}
+#picture {
+	width: 100%;
+	height: 80vh;
+}
+
+p {
+	text-align: justify;
+}
+
+/* Tutaj zaczynają się sekcje z treściami na temat poszczególnych grup zwierząt. */
+
+/* WSTĘP */
+#wstep {
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#wstep h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#wstep p{
+	text-align: justify;
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo1 {
+	width: 100%;
+	height: 30vh;
+}
+
+/* SSAKI */
+#tekstssaki {
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#tekstssaki h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#tekstssaki p{
+	margin: auto 50px auto 50px;
+}
+#obrazssaki {
+	height: 60vh;
+	width: 40%;
+	background-color: Tomato;
+	float: left;
+}
+#opisssaki {
+	height: 60vh;
+	width: 60%;
+	background-color: MintCream;
+	float: right;
+}
+#opisssaki h2{
+	margin: 50px 50px auto 50px;
+	color: MediumAquaMarine;
+}
+#opisssaki p{
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo2 {
+	clear: both;
+	width: 100%;
+	height: 30vh;
+}
+
+/* PTAKI */
+#tekstptaki {
+	clear: both;
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#tekstptaki h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#tekstptaki p{
+	margin: auto 50px auto 50px;
+}
+#obrazptaki {
+	height: 60vh;
+	width: 40%;
+	background-color: Tomato;
+	float: left;
+}
+#opisptaki {
+	height: 60vh;
+	width: 60%;
+	background-color: MintCream;
+	float: right;
+}
+#opisptaki h2{
+	margin: 50px 50px auto 50px;
+	color: MediumAquaMarine;
+}
+#opisptaki p{
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo3 {
+	clear: both;
+	width: 100%;
+	height: 30vh;
+}
+
+/* GADY */
+#tekstgady {
+	clear: both;
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#tekstgady h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#tekstgady p{
+	margin: auto 50px auto 50px;
+}
+#obrazgady {
+	height: 60vh;
+	width: 40%;
+	background-color: Tomato;
+	float: left;
+}
+#opisgady {
+	height: 60vh;
+	width: 60%;
+	background-color: MintCream;
+	float: right;
+}
+#opisgady h2{
+	margin: 50px 50px auto 50px;
+	color: MediumAquaMarine;
+}
+#opisgady p{
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo4 {
+	clear: both;
+	width: 100%;
+	height: 30vh;
+}
+
+/* OWADY */
+#tekstowady {
+	clear: both;
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#tekstowady h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#tekstowady p{
+	margin: auto 50px auto 50px;
+}
+#obrazowady {
+	height: 60vh;
+	width: 40%;
+	background-color: Tomato;
+	float: left;
+}
+#opisowady {
+	height: 60vh;
+	width: 60%;
+	background-color: MintCream;
+	float: right;
+}
+#opisowady h2{
+	margin: 50px 50px auto 50px;
+	color: MediumAquaMarine;
+}
+#opisowady p{
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo5 {
+	clear: both;
+	width: 100%;
+	height: 30vh;
+}
+
+/* PŁAZY */
+#tekstplazy {
+	clear: both;
+	height: 50vh;
+	width: 100%;
+	background-color: MintCream;
+}
+#tekstplazy h2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: MediumAquaMarine;
+}
+#tekstplazy p{
+	margin: auto 50px auto 50px;
+}
+#obrazplazy {
+	height: 60vh;
+	width: 40%;
+	background-color: Tomato;
+	float: left;
+}
+#opisplazy {
+	height: 60vh;
+	width: 60%;
+	background-color: MintCream;
+	float: right;
+}
+#opisplazy h2{
+	margin: 50px 50px auto 50px;
+	color: MediumAquaMarine;
+}
+#opisplazy p{
+	margin: auto 50px auto 50px;
+}
+
+/* TŁO */
+#tlo6 {
+	clear: both;
+	width: 100%;
+	height: 30vh;
+}
+
+/* STOPKA */
+footer {
+	height: 15vh;
+	width: 100%;
+	background-color: MediumSpringGreen;
+	clear: both;
+}
+footer h3 {
+	text-align: center;
+	margin: 0 auto;
+	line-height: 15vh
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 15pt;
+	}
+	p {
+		font-size: 12pt;
+	}
+	#wstep {
+		height: 70vh;
+	}
+	#tekstssaki {
+		height: 150vh;
+	}
+	#obrazssaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisssaki {
+		height: 160vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstptaki {
+		height: 150vh;
+	}
+	#obrazptaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisptaki {
+		height: 160vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstgady {
+		height: 150vh;
+	}
+	#obrazgady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisgady {
+		height: 160vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstowady {
+		height: 150vh;
+	}
+	#obrazowady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisowady {
+		height: 160vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstplazy {
+		height: 170vh;
+	}
+	#obrazplazy {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisplazy {
+		height: 170vh;
+		width: 100%;
+		clear: both;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	h1 {
+		font-size: 18pt;
+	}
+	p {
+		font-size: 14pt;
+	}
+	#wstep {
+		height: 70vh;
+	}
+	#tekstssaki {
+		height: 120vh;
+	}
+	#obrazssaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisssaki {
+		height: 130vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstptaki {
+		height: 120vh;
+	}
+	#obrazptaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisptaki {
+		height: 140vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstgady {
+		height: 80vh;
+	}
+	#obrazgady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisgady {
+		height: 100vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstowady {
+		height: 100vh;
+	}
+	#obrazowady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisowady {
+		height: 100vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstplazy {
+		height: 135vh;
+	}
+	#obrazplazy {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisplazy {
+		height: 130vh;
+		width: 100%;
+		clear: both;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 20pt;
+	}
+	p {
+		font-size: 15pt;
+	}
+	#wstep {
+		height: 70vh;
+	}
+	#tekstssaki {
+		height: 120vh;
+	}
+	#obrazssaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisssaki {
+		height: 130vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstptaki {
+		height: 120vh;
+	}
+	#obrazptaki {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisptaki {
+		height: 140vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstgady {
+		height: 80vh;
+	}
+	#obrazgady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisgady {
+		height: 100vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstowady {
+		height: 100vh;
+	}
+	#obrazowady {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisowady {
+		height: 100vh;
+		width: 100%;
+		clear: both;
+	}
+	
+	#tekstplazy {
+		height: 135vh;
+	}
+	#obrazplazy {
+		width: 100%;
+		height: 100vh;
+	}
+	#opisplazy {
+		height: 130vh;
+		width: 100%;
+		clear: both;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	h1 {
+		font-size: 26pt;
+	}
+	p {
+		font-size: 12pt;
+	}
+	#wstep {
+		height: 50vh;
+	}
+	#tekstssaki {
+		height: 60vh;
+	}
+	#obrazssaki {
+		width: 40%;
+		height: 90vh;
+	}
+	#opisssaki {
+		height: 90vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstptaki {
+		height: 60vh;
+	}
+	#obrazptaki {
+		width: 40%;
+		height: 90vh;
+	}
+	#opisptaki {
+		height: 90vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstgady {
+		height: 50vh;
+	}
+	#obrazgady {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisgady {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstowady {
+		height: 60vh;
+	}
+	#obrazowady {
+		width: 40%;
+		height: 70vh;
+	}
+	#opisowady {
+		height: 70vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstplazy {
+		height: 70vh;
+	}
+	#obrazplazy {
+		width: 40%;
+		height: 90vh;
+	}
+	#opisplazy {
+		height: 90vh;
+		width: 60%;
+		clear: none;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	h1 {
+		font-size: 30pt;
+	}
+	p {
+		font-size: 13pt;
+	}
+	#wstep {
+		height: 50vh;
+	}
+	#tekstssaki {
+		height: 50vh;
+	}
+	#obrazssaki {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisssaki {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstptaki {
+		height: 50vh;
+	}
+	#obrazptaki {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisptaki {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstgady {
+		height: 50vh;
+	}
+	#obrazgady {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisgady {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstowady {
+		height: 50vh;
+	}
+	#obrazowady {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisowady {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+	
+	#tekstplazy {
+		height: 50vh;
+	}
+	#obrazplazy {
+		width: 40%;
+		height: 60vh;
+	}
+	#opisplazy {
+		height: 60vh;
+		width: 60%;
+		clear: none;
+	}
+} 
