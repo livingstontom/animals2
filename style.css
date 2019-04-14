@@ -15,7 +15,7 @@ body {
 header {
 	height: 25vh;
 	width: 100%;
-	background-color: MediumSpringGreen;
+	background-image: linear-gradient(-60deg, MediumSpringGreen, MintCream);
 }
 header h1 {
   margin: 0 auto;
@@ -23,7 +23,7 @@ header h1 {
   vertical-align: middle;
   text-transform: uppercase;
   line-height: 25vh;
-
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* NAVBAR */
@@ -116,6 +116,8 @@ p {
 	width: 40%;
 	background-color: Tomato;
 	float: left;
+	background-size: 100% 100%;
+	background-image: url('images/Arctic_Hare_1.jpg');
 }
 #opisssaki {
 	height: 60vh;
@@ -159,6 +161,8 @@ p {
 	width: 40%;
 	background-color: Tomato;
 	float: left;
+	background-size: 100% 100%;
+	background-image: url('images/House_sparrowII.jpg');
 }
 #opisptaki {
 	height: 60vh;
@@ -202,6 +206,8 @@ p {
 	width: 40%;
 	background-color: Tomato;
 	float: left;
+	background-size: 120% 100%;
+	background-image: url('images/Caiman_yacare_head.jpg');
 }
 #opisgady {
 	height: 60vh;
@@ -245,6 +251,8 @@ p {
 	width: 40%;
 	background-color: Tomato;
 	float: left;
+	background-size: 100% 100%;
+	background-image: url('images/owad.jpg');
 }
 #opisowady {
 	height: 60vh;
@@ -288,6 +296,8 @@ p {
 	width: 40%;
 	background-color: Tomato;
 	float: left;
+	background-size: 100% 100%;
+	background-image: url('images/zabol.jpg');
 }
 #opisplazy {
 	height: 60vh;
@@ -314,7 +324,7 @@ p {
 footer {
 	height: 15vh;
 	width: 100%;
-	background-color: MediumSpringGreen;
+	background-image: linear-gradient(-60deg, MediumSpringGreen, MintCream);
 	clear: both;
 }
 footer h3 {
@@ -326,7 +336,7 @@ footer h3 {
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 15pt;
+		font-size: 22pt;
 	}
 	p {
 		font-size: 12pt;
@@ -403,7 +413,7 @@ footer h3 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	h1 {
-		font-size: 18pt;
+		font-size: 28pt;
 	}
 	p {
 		font-size: 14pt;
@@ -480,7 +490,7 @@ footer h3 {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	h1 {
-		font-size: 20pt;
+		font-size: 32pt;
 	}
 	p {
 		font-size: 15pt;
@@ -506,7 +516,7 @@ footer h3 {
 	}
 	#obrazptaki {
 		width: 100%;
-		height: 100vh;
+		height: 140vh;
 	}
 	#opisptaki {
 		height: 140vh;
@@ -554,11 +564,10 @@ footer h3 {
 	}
 }
 
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	h1 {
-		font-size: 26pt;
+		font-size: 35pt;
 	}
 	p {
 		font-size: 12pt;
@@ -571,10 +580,10 @@ footer h3 {
 	}
 	#obrazssaki {
 		width: 40%;
-		height: 90vh;
+		height: 70vh;
 	}
 	#opisssaki {
-		height: 90vh;
+		height: 70vh;
 		width: 60%;
 		clear: none;
 	}
@@ -584,10 +593,10 @@ footer h3 {
 	}
 	#obrazptaki {
 		width: 40%;
-		height: 90vh;
+		height: 80vh;
 	}
 	#opisptaki {
-		height: 90vh;
+		height: 80vh;
 		width: 60%;
 		clear: none;
 	}
@@ -610,10 +619,10 @@ footer h3 {
 	}
 	#obrazowady {
 		width: 40%;
-		height: 70vh;
+		height: 60vh;
 	}
 	#opisowady {
-		height: 70vh;
+		height: 60vh;
 		width: 60%;
 		clear: none;
 	}
@@ -623,10 +632,10 @@ footer h3 {
 	}
 	#obrazplazy {
 		width: 40%;
-		height: 90vh;
+		height: 70vh;
 	}
 	#opisplazy {
-		height: 90vh;
+		height: 70vh;
 		width: 60%;
 		clear: none;
 	}
@@ -635,7 +644,7 @@ footer h3 {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	h1 {
-		font-size: 30pt;
+		font-size: 35pt;
 	}
 	p {
 		font-size: 13pt;
